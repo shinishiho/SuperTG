@@ -1,0 +1,30 @@
+{
+  "name": "supertg",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.17.1",
+    "@langchain/anthropic": "^0.1.8",
+    "@qdrant/js-client-rest": "^1.8.1",
+    "@types/through2": "^2.0.41",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.3.6",
+    "fuse.js": "^7.0.0",
+    "grammy": "^1.21.1",
+    "groq-sdk": "^0.3.2",
+    "json-server": "^1.0.0-alpha.23",
+    "jsonl": "^1.1.2",
+    "langchain": "^0.1.28",
+    "mathjs": "^12.4.1",
+    "re2": "^1.20.10",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.4"
+  }
+}

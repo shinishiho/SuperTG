@@ -1,0 +1,14 @@
+{
+    "main_tool": {
+        "name": "search_tool",
+        "description": "Elastically search for a tool to use",
+        "params": [
+            {
+                "name": "query",
+                "type": "string",
+                "description": "The description of the tool you need. Make simple query about what task needs to be done."
+            }
+        ]
+    },
+    "tools": []
+}
